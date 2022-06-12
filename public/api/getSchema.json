@@ -1,0 +1,216 @@
+{
+	"message": "get schema task ok",
+	"code": 200,
+	"data": {
+		"time": 1612488097,
+		"schema_info": {
+			"common": {
+				"cfg_type": "object",
+				"title": "公共",
+				"id": "common",
+				"properties": [{
+          "val_type":"number",
+						"cfg_type": "text",
+						"title": "任务id",
+						"default": 0,
+						"id": "taskid",
+						"desc": "desc"
+					},
+					{
+            "val_type":"refer",
+						"cfg_type": "single_select",
+						"title": "任务状态",
+						"enum": [{
+								"id": 0,
+								"val": "ETS_CLOSE",
+								"desc": "0|任务关闭"
+							},
+							{
+								"id": 1,
+								"val": "ETS_OPEN",
+								"desc": "1|任务开通"
+							}
+						],
+						"id": "status",
+						"desc": "open status"
+					},
+					{
+            "val_type":"number",
+						"cfg_type": "text",
+						"title": "开启年份",
+						"default": 0,
+						"id": "openyear",
+						"desc": "desc"
+					},
+					{
+            "val_type":"number",
+						"cfg_type": "text",
+						"title": "开启日期",
+						"default": 0,
+						"id": "opendate",
+						"desc": "desc"
+					},
+					{
+            "val_type":"number",
+						"cfg_type": "text",
+						"title": "结束年份",
+						"default": 0,
+						"id": "closeyear",
+						"desc": "desc"
+					},
+					{
+            "val_type":"number",
+						"cfg_type": "text",
+						"title": "结束日期",
+						"default": 0,
+						"id": "closedate",
+						"desc": "desc"
+					}
+				]
+			},
+			"pages": [{
+					"cfg_type": "object",
+					"title": "通用",
+					"id": "universe",
+					"properties": [{
+							"val_type": "string",
+							"cfg_type": "text",
+							"title": "任务名",
+							"default": "",
+							"id": "name",
+							"desc": "desc"
+						},
+						{
+							"val_type": "string",
+							"cfg_type": "text",
+							"title": "任务说明",
+							"default": "",
+							"id": "intro",
+							"desc": "desc"
+						},
+						{
+							"val_type": "string",
+							"cfg_type": "text",
+							"title": "简短描述",
+							"default": "",
+							"id": "short_intro",
+							"desc": "desc"
+						}
+					]
+				},
+				{
+					"cfg_type": "object",
+					"title": "任务逻辑",
+					"id": "logic",
+					"properties": [{
+							"val_type": "refer",
+							"cfg_type": "single_select",
+							"title": "任务执行周期",
+							"enum": [{
+									"id": -1,
+									"val": "-1",
+									"desc": "-1|永久"
+								},
+								{
+									"id": 0,
+									"val": "ETEPT_DEFAULT",
+									"desc": "0|默认与任务有效期间一致"
+								},
+								{
+									"id": 1,
+									"val": "ETEPT_DAY",
+									"desc": "1|以天为周期"
+								},
+								{
+									"id": 2,
+									"val": "ETEPT_WEEK",
+									"desc": "2|以周为周期"
+								},
+								{
+									"id": 3,
+									"val": "ETEPT_YEAR",
+									"desc": "3|以年为周期"
+								},
+								{
+									"id": 4,
+									"val": "ETEPT_MONTH",
+									"desc": "4|以月为周期"
+								},
+								{
+									"id": 5,
+									"val": "ETEPT_DAYS",
+									"desc": "5|以具体的天数为周期"
+								},
+								{
+									"id": 6,
+									"val": "ETEPT_MONTH_BILLING",
+									"desc": "6|以计费月为周期"
+								}
+							],
+							"id": "executeperiod",
+							"desc": "desc"
+						},
+						{
+							"val_type": "number",
+							"cfg_type": "text",
+							"title": "须执行次数",
+							"default": 0,
+							"id": "executenum",
+							"desc": "desc"
+						},
+						{
+							"cfg_type": "object",
+							"properties": [{
+									"val_type": "number",
+									"cfg_type": "text",
+									"title": "频道限制",
+									"default": 0,
+									"id": "channel",
+									"desc": "desc"
+								},
+								{
+									"val_type": "number",
+									"cfg_type": "text",
+									"title": "条件类型",
+									"default": 0,
+									"id": "conditiontype",
+									"desc": "desc"
+								}
+							],
+							"id": "condition",
+							"title": "完成任务条件"
+						}
+					]
+				},
+				{
+					"cfg_type": "object",
+					"title": "任务特殊逻辑",
+					"id": "special",
+					"properties": [{
+						"val_type": "number",
+						"cfg_type": "text",
+						"title": "任务特殊标志",
+						"default": 0,
+						"id": "specialmark",
+						"desc": "desc"
+					}]
+				},
+				{
+					"val_type": "json",
+					"title": "奖励",
+					"id": "award",
+					"default": ""
+				},
+				{
+          "val_type": "json",
+					"default": "",
+					"cfg_type": "text",
+					"id": "other",
+					"title": "其他"
+				}
+			]
+		},
+		"version": 1,
+		"author": "heathpan"
+	}
+}

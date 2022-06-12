@@ -1,0 +1,36 @@
+{
+	"message": "get task:1000 ok",
+	"code": 200,
+	"data": {
+		"router": [
+      {
+        "path": "/AVehicleFreeExperience",
+        "component": "Layout",
+        "redirect": "/AVehicleFreeExperience/index",
+        "children": [
+          {
+            "path": "index",
+            "component": "AVehicleFreeExperience/index",
+            "name": "index",
+            "meta": { "title": "AVehicleFreeExperience", "icon": "", "affix": "true" }
+          }
+        ]
+      },
+      {
+        "path": "/user",
+        "component": "Layout",
+        "redirect": "/user/sign-in",
+        "children": [
+          {
+            "path": "sign-in",
+            "component": "user/sign-in",
+            "name": "sign-in",
+            "meta": { "title": "用户类", "icon": "", "affix": "true" }
+          }
+        ]
+      }
+    ]
+	}
+}
+
+

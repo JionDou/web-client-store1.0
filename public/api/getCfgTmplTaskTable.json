@@ -1,0 +1,98 @@
+{
+	"message": "get cfg_tmpl task succ",
+	"code": 200,
+	"data": {
+		"content": {
+			"items": [{
+					"cfg_type": "task",
+					"name": "跑图任务",
+					"author": "dev",
+					"version": 6,
+					"time": "2021-02-05 18:02:54",
+					"id": 1,
+					"desc": "跑图任务 desc"
+				},
+				{
+					"cfg_type": "task",
+					"name": "跑图任务",
+					"author": "dev",
+					"version": 1,
+					"time": "2021-02-05 18:23:49",
+					"id": 2,
+					"desc": "跑图任务 desc"
+				},
+				{
+					"cfg_type": "task",
+					"name": "跑图任务",
+					"author": "dev",
+					"version": 1,
+					"time": "2021-02-05 18:23:49",
+					"id": 3,
+					"desc": "跑图任务 desc"
+				},
+				{
+					"cfg_type": "task",
+					"name": "跑图任务",
+					"author": "dev",
+					"version": 1,
+					"time": "2021-02-05 18:23:50",
+					"id": 4,
+					"desc": "跑图任务 desc"
+				},
+				{
+					"cfg_type": "task",
+					"name": "累计登录任务",
+					"author": "dev",
+					"version": 1,
+					"time": "2021-02-08 15:56:24",
+					"id": 5,
+					"desc": "累计登录任务 desc"
+				}
+			],
+			"total": 5,
+			"page_size": 10,
+			"offset": 0
+		},
+		"meta_data": {
+			"headers": [{
+					"prop": "id",
+					"label": "ID序号"
+				},
+				{
+					"prop": "author",
+					"label": "最近修改人"
+				},
+				{
+					"prop": "time",
+					"label": "最近修改时间"
+				},
+				{
+					"prop": "name",
+					"label": "配置模板名字"
+				},
+				{
+					"prop": "desc",
+					"label": "描述"
+				},
+				{
+					"prop": "version",
+					"label": "版本号"
+				},
+				{
+					"prop": "options",
+					"type": "Function",
+					"opts": [{
+							"prop": "edit",
+							"label": "编辑"
+						},
+						{
+							"prop": "view",
+							"label": "查看"
+						}
+					],
+					"label": "操作"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,192 @@
+{
+	"message": "get schema:task ok",
+	"code": 200,
+	"data": {
+		"schema_info": {
+			"common": {
+        "cfg_type": "object",
+        "properties":[
+          {
+            "cfg_type": "text",
+            "title": "任务id",
+            "default": "0",
+            "notnull": true,
+            "id": "taskid",
+            "desc": ""
+          },
+          {
+            "cfg_type": "single_select",
+            "title": "任务开启状态",
+            "default": "",
+            "enum":[
+              {
+                "id":0,
+                "val":"ETS_CLOSE",
+                "desc":"0|任务关闭"
+              },
+              {
+                "id":1,
+                "val":"ETS_OPEN",
+                "desc":"1|任务开通"
+              }
+            ],
+            "notnull": true,
+            "id": "status",
+            "desc": ""
+          },
+          {
+            "cfg_type": "text",
+            "title": "开始年份",
+            "default": "0",
+            "notnull": true,
+            "id": "openyear",
+            "desc": ""
+          },
+          {
+            "cfg_type": "text",
+            "title": "开始日期",
+            "default": "0",
+            "notnull": true,
+            "id": "opendate",
+            "desc": ""
+          },
+          {
+            "cfg_type": "text",
+            "title": "结束年份",
+            "default": "0",
+            "notnull": true,
+            "id": "closeyear",
+            "desc": ""
+          },
+          {
+            "cfg_type": "text",
+            "title": "结束日期",
+            "default": "0",
+            "notnull": true,
+            "id": "closedate",
+            "desc": ""
+          }
+        ]
+      },
+			"pages": [{
+					"id": "universe",
+					"cfg_type": "object",
+					"properties": [
+            {
+							"val_type": "string",
+							"cfg_type": "text",
+							"title": "任务名",
+							"default": "",
+							"id": "name",
+							"desc": "desc"
+						},
+						{
+							"val_type": "string",
+							"cfg_type": "text",
+							"title": "任务说明",
+							"default": "",
+							"id": "intro",
+							"desc": "desc"
+						},
+						{
+							"val_type": "string",
+							"cfg_type": "text",
+							"title": "简短描述",
+							"default": "",
+							"id": "short_intro",
+							"desc": "desc"
+						}
+					],
+					"title": "通用"
+        },
+        {
+          "id": "logic",
+					"cfg_type": "object",
+					"properties": [
+              {
+              "val_type": "string",
+              "cfg_type": "single_select",
+              "title": "任务周期",
+              "default": "",
+              "enum":[
+                {
+                  "id":1,
+                  "val":"ETS_CLOSE",
+                  "desc":"1|永久"
+                }
+              ],
+              "id": "executeperiod",
+              "desc": "desc"
+            },
+            {
+              "val_type":"number",
+              "cfg_type": "text",
+              "id":"executenum",
+              "title":"任务执行次数",
+              "desc":""
+            },
+            {
+              "id": "condition",
+              "desc": "desc",
+              "title": "任务条件",
+              "properties":[
+                {
+                  "val_type":"number",
+                  "cfg_type": "text",
+                  "id":"conditiontype",
+                  "title":"条件类型",
+                  "default":0,
+                  "desc":""
+                },
+                {
+                  "val_type":"number",
+                  "cfg_type": "text",
+                  "id":"channel",
+                  "title":"取消",
+                  "default":0,
+                  "desc":""
+                }
+              ]
+
+            }
+          ],
+          "title":"任务逻辑"
+        },
+				{
+					"id": "special",
+					"cfg_type": "object",
+					"properties": [
+              {
+              "val_type": "number",
+              "cfg_type": "text",
+              "title": "任务特殊标志",
+              "default": 0,
+              "id": "specialmark",
+              "desc": "desc"
+            }
+          ],
+					"title": "任务特殊逻辑"
+				},
+				{
+					"id": "award",
+					"cfg_type": "object",
+					"properties": [{
+						"val_type": "json",
+						"cfg_type": "text",
+						"title": "首次完成任务奖励",
+						"id": "firstaward",
+						"desc": "desc"
+					}],
+					"title": "奖励"
+				},
+				{
+					"val_type": "json",
+					"cfg_type": "text",
+					"id": "other",
+					"title": "其他"
+				}
+			]
+		},
+		"data_info": {}
+	}
+}

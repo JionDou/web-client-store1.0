@@ -1,0 +1,745 @@
+{
+  "message": "success",
+  "code": 200,
+  "data": {
+    "schema_info": {
+      "common": [],
+      "pages": [
+        {
+          "id": "AVehicleFreeExperienceCommonCfg",
+          "title": "[315]A车免费体验活动.xlsx-通用配置",
+          "cfg_type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              {
+                "id": "ActivityID",
+                "title": "活动ID",
+                "desc": "活动ID",
+                "val_type": "uint32",
+                "cfg_type": "uint32",
+                "default": null
+              },
+              {
+                "id": "CrownDiscount",
+                "title": "皇冠折扣",
+                "desc": "皇冠折扣",
+                "val_type": "uint16",
+                "cfg_type": "uint16",
+                "default": null
+              },
+              {
+                "id": "MaxProgress",
+                "title": "进度上限",
+                "desc": "进度上限",
+                "val_type": "uint16",
+                "cfg_type": "uint16",
+                "default": null
+              },
+              {
+                "id": "CouponPerProgress",
+                "title": "每个进度花费点券",
+                "desc": "每个进度花费点券",
+                "val_type": "uint32",
+                "cfg_type": "uint32",
+                "default": null
+              },
+              {
+                "id": "DiamondPerProgress",
+                "title": "每个进度花费钻石",
+                "desc": "每个进度花费钻石",
+                "val_type": "uint32",
+                "cfg_type": "uint32",
+                "default": null
+              },
+              {
+                "id": "ConversionHoursPerProgress",
+                "title": "每个进度折算小时",
+                "desc": "每个进度折算小时",
+                "val_type": "uint32",
+                "cfg_type": "uint32",
+                "default": null
+              },
+              {
+                "id": "VehicleID",
+                "title": "赛车ID",
+                "desc": "赛车ID",
+                "val_type": "uint32",
+                "cfg_type": "uint32",
+                "default": null
+              },
+              {
+                "id": "ProgressItemID",
+                "title": "进度物品ID",
+                "desc": "进度物品ID",
+                "val_type": "uint32",
+                "cfg_type": "uint32",
+                "default": null
+              },
+              {
+                "id": "FreeReceivingPhaseBeginTime",
+                "title": "免费领取阶段开启时间",
+                "desc": "免费领取阶段开启时间",
+                "val_type": "string",
+                "cfg_type": "string",
+                "default": null
+              },
+              {
+                "id": "FreeReceivingPhaseEndTime",
+                "title": "免费领取阶段结束时间",
+                "desc": "免费领取阶段结束时间",
+                "val_type": "string",
+                "cfg_type": "string",
+                "default": null
+              },
+              {
+                "id": "TaskReceivingPhaseBeginTime",
+                "title": "任务领取阶段开启时间",
+                "desc": "任务领取阶段开启时间",
+                "val_type": "string",
+                "cfg_type": "string",
+                "default": null
+              },
+              {
+                "id": "TaskReceivingPhaseEndTime",
+                "title": "任务领取阶段结束时间",
+                "desc": "任务领取阶段结束时间",
+                "val_type": "string",
+                "cfg_type": "string",
+                "default": null
+              },
+              {
+                "id": "SettlementPhaseBeginTime",
+                "title": "结算阶段开启时间",
+                "desc": "结算阶段开启时间",
+                "val_type": "string",
+                "cfg_type": "string",
+                "default": null
+              },
+              {
+                "id": "SettlementPhaseEndTime",
+                "title": "结算阶段结束时间",
+                "desc": "结算阶段结束时间",
+                "val_type": "string",
+                "cfg_type": "string",
+                "default": null
+              },
+              {
+                "id": "InvitationNumEveryDay",
+                "title": "每日邀请人数上限",
+                "desc": "每日邀请人数上限",
+                "val_type": "uint8",
+                "cfg_type": "uint8",
+                "default": null
+              },
+              {
+                "id": "InvitationRecordNumMax",
+                "title": "邀请记录展示最大数量",
+                "desc": "邀请记录展示最大数量",
+                "val_type": "uint8",
+                "cfg_type": "uint8",
+                "default": null
+              },
+              {
+                "id": "1ThingID",
+                "title": "邀请奖励1ID",
+                "desc": "邀请奖励1ID",
+                "val_type": "uint32",
+                "cfg_type": "uint32",
+                "default": null
+              },
+              {
+                "id": "1Num",
+                "title": "邀请奖励1数量",
+                "desc": "邀请奖励1数量",
+                "val_type": "uint32",
+                "cfg_type": "uint32",
+                "default": null
+              },
+              {
+                "id": "1Period",
+                "title": "邀请奖励1有效期",
+                "desc": "邀请奖励1有效期",
+                "val_type": "int",
+                "cfg_type": "int",
+                "default": null
+              },
+              {
+                "id": "1Rarity",
+                "title": "邀请奖励1稀有度",
+                "desc": "邀请奖励1稀有度",
+                "val_type": "int8",
+                "cfg_type": "int8",
+                "default": null
+              },
+              {
+                "id": "1Param1",
+                "title": "邀请奖励1参数1",
+                "desc": "邀请奖励1参数1",
+                "val_type": "int",
+                "cfg_type": "int",
+                "default": null
+              },
+              {
+                "id": "1Param2",
+                "title": "邀请奖励1参数2",
+                "desc": "邀请奖励1参数2",
+                "val_type": "int",
+                "cfg_type": "int",
+                "default": null
+              },
+              {
+                "id": "1Param3",
+                "title": "邀请奖励1参数3",
+                "desc": "邀请奖励1参数3",
+                "val_type": "int",
+                "cfg_type": "int",
+                "default": null
+              },
+              {
+                "id": "2ThingID",
+                "title": "邀请奖励2ID",
+                "desc": "邀请奖励2ID",
+                "val_type": "uint32",
+                "cfg_type": "uint32",
+                "default": null
+              },
+              {
+                "id": "2Num",
+                "title": "邀请奖励2数量",
+                "desc": "邀请奖励2数量",
+                "val_type": "uint32",
+                "cfg_type": "uint32",
+                "default": null
+              },
+              {
+                "id": "2Period",
+                "title": "邀请奖励2有效期",
+                "desc": "邀请奖励2有效期",
+                "val_type": "int",
+                "cfg_type": "int",
+                "default": null
+              },
+              {
+                "id": "2Rarity",
+                "title": "邀请奖励2稀有度",
+                "desc": "邀请奖励2稀有度",
+                "val_type": "int8",
+                "cfg_type": "int8",
+                "default": null
+              },
+              {
+                "id": "2Param1",
+                "title": "邀请奖励2参数1",
+                "desc": "邀请奖励2参数1",
+                "val_type": "int",
+                "cfg_type": "int",
+                "default": null
+              },
+              {
+                "id": "2Param2",
+                "title": "邀请奖励2参数2",
+                "desc": "邀请奖励2参数2",
+                "val_type": "int",
+                "cfg_type": "int",
+                "default": null
+              },
+              {
+                "id": "2Param3",
+                "title": "邀请奖励2参数3",
+                "desc": "邀请奖励2参数3",
+                "val_type": "int",
+                "cfg_type": "int",
+                "default": null
+              },
+              {
+                "id": "InvitationTimeLimit",
+                "title": "邀请上线时限",
+                "desc": "邀请上线时限",
+                "val_type": "uint64",
+                "cfg_type": "uint64",
+                "default": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "AVehicleFreeExperienceShareCfg",
+          "title": "[315]A车免费体验活动.xlsx-分享配置",
+          "cfg_type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              {
+                "id": "ActivityID",
+                "title": "活动ID",
+                "desc": "活动ID",
+                "val_type": "uint32",
+                "cfg_type": "uint32",
+                "default": null
+              },
+              {
+                "id": "ProgressID",
+                "title": "进度最低要求",
+                "desc": "进度最低要求",
+                "val_type": "uint16",
+                "cfg_type": "uint16",
+                "default": null
+              },
+              {
+                "id": "ShareUrl",
+                "title": "分享链接",
+                "desc": "分享链接",
+                "val_type": "string",
+                "cfg_type": "string",
+                "default": null
+              },
+              {
+                "id": "ThingID",
+                "title": "奖励ID",
+                "desc": "奖励ID",
+                "val_type": "uint32",
+                "cfg_type": "uint32",
+                "default": null
+              },
+              {
+                "id": "Num",
+                "title": "奖励数量",
+                "desc": "奖励数量",
+                "val_type": "uint32",
+                "cfg_type": "uint32",
+                "default": "1"
+              },
+              {
+                "id": "Period",
+                "title": "奖励有效期",
+                "desc": "奖励有效期",
+                "val_type": "int",
+                "cfg_type": "int",
+                "default": "-1"
+              },
+              {
+                "id": "Rarity",
+                "title": "奖励稀有度",
+                "desc": "奖励稀有度",
+                "val_type": "int8",
+                "cfg_type": "int8",
+                "default": "-1"
+              },
+              {
+                "id": "Param1",
+                "title": "奖励参数1",
+                "desc": "奖励参数1",
+                "val_type": "int",
+                "cfg_type": "int",
+                "default": null
+              },
+              {
+                "id": "Param2",
+                "title": "奖励参数2",
+                "desc": "奖励参数2",
+                "val_type": "int",
+                "cfg_type": "int",
+                "default": null
+              },
+              {
+                "id": "Param3",
+                "title": "奖励参数3",
+                "desc": "奖励参数3",
+                "val_type": "int",
+                "cfg_type": "int",
+                "default": null
+              },
+              {
+                "id": "MinProgress",
+                "title": "进度最低要求",
+                "desc": "进度最低要求",
+                "val_type": "uint16",
+                "cfg_type": "uint16",
+                "default": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "AVehicleFreeExperienceRewardCfg",
+          "title": "[315]A车免费体验活动.xlsx-奖励配置",
+          "cfg_type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              {
+                "id": "ActivityID",
+                "title": "活动ID",
+                "desc": "活动ID",
+                "val_type": "uint32",
+                "cfg_type": "uint32",
+                "default": null
+              },
+              {
+                "id": "ProgressID",
+                "title": "进度ID",
+                "desc": "进度ID",
+                "val_type": "uint16",
+                "cfg_type": "uint16",
+                "default": null
+              },
+              {
+                "id": "IsRenew",
+                "title": "是否续约",
+                "desc": "是否续约",
+                "val_type": "uint8",
+                "cfg_type": "uint8",
+                "default": null
+              },
+              {
+                "id": "1ThingID",
+                "title": "奖励1ID",
+                "desc": "奖励1ID",
+                "val_type": "uint32",
+                "cfg_type": "uint32",
+                "default": null
+              },
+              {
+                "id": "1Num",
+                "title": "奖励1数量",
+                "desc": "奖励1数量",
+                "val_type": "uint32",
+                "cfg_type": "uint32",
+                "default": null
+              },
+              {
+                "id": "1Period",
+                "title": "奖励1有效期",
+                "desc": "奖励1有效期",
+                "val_type": "int",
+                "cfg_type": "int",
+                "default": null
+              },
+              {
+                "id": "1Rarity",
+                "title": "奖励1稀有度",
+                "desc": "奖励1稀有度",
+                "val_type": "int8",
+                "cfg_type": "int8",
+                "default": null
+              },
+              {
+                "id": "1Param1",
+                "title": "奖励1参数1",
+                "desc": "奖励1参数1",
+                "val_type": "int",
+                "cfg_type": "int",
+                "default": null
+              },
+              {
+                "id": "1Param2",
+                "title": "奖励1参数2",
+                "desc": "奖励1参数2",
+                "val_type": "int",
+                "cfg_type": "int",
+                "default": null
+              },
+              {
+                "id": "1Param3",
+                "title": "奖励1参数3",
+                "desc": "奖励1参数3",
+                "val_type": "int",
+                "cfg_type": "int",
+                "default": null
+              },
+              {
+                "id": "2ThingID",
+                "title": "奖励2ID",
+                "desc": "奖励2ID",
+                "val_type": "uint32",
+                "cfg_type": "uint32",
+                "default": null
+              },
+              {
+                "id": "2Num",
+                "title": "奖励2数量",
+                "desc": "奖励2数量",
+                "val_type": "uint32",
+                "cfg_type": "uint32",
+                "default": null
+              },
+              {
+                "id": "2Period",
+                "title": "奖励2有效期",
+                "desc": "奖励2有效期",
+                "val_type": "int",
+                "cfg_type": "int",
+                "default": null
+              },
+              {
+                "id": "2Rarity",
+                "title": "奖励2稀有度",
+                "desc": "奖励2稀有度",
+                "val_type": "int8",
+                "cfg_type": "int8",
+                "default": null
+              },
+              {
+                "id": "2Param1",
+                "title": "奖励2参数1",
+                "desc": "奖励2参数1",
+                "val_type": "int",
+                "cfg_type": "int",
+                "default": null
+              },
+              {
+                "id": "2Param2",
+                "title": "奖励2参数2",
+                "desc": "奖励2参数2",
+                "val_type": "int",
+                "cfg_type": "int",
+                "default": null
+              },
+              {
+                "id": "2Param3",
+                "title": "奖励2参数3",
+                "desc": "奖励2参数3",
+                "val_type": "int",
+                "cfg_type": "int",
+                "default": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "AVehicleFreeExperienceReceivingPhaseCfg",
+          "title": "[315]A车免费体验活动.xlsx-领车阶段配置",
+          "cfg_type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              {
+                "id": "ActivityID",
+                "title": "活动ID",
+                "desc": "活动ID",
+                "val_type": "uint32",
+                "cfg_type": "uint32",
+                "default": null
+              },
+              {
+                "id": "TaskSet",
+                "title": "任务ID",
+                "desc": "任务ID",
+                "val_type": "string",
+                "cfg_type": "string",
+                "default": null
+              },
+              {
+                "id": "NewRefluxUserType",
+                "title": "回流用户类型",
+                "desc": "回流用户类型",
+                "val_type": "string",
+                "cfg_type": "string",
+                "default": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "AVehicleFreeExperienceTaskCfg",
+          "title": "[315]A车免费体验活动.xlsx-任务配置",
+          "cfg_type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              {
+                "id": "ActivityID",
+                "title": "活动ID",
+                "desc": "活动ID",
+                "val_type": "uint32",
+                "cfg_type": "uint32",
+                "default": null
+              },
+              {
+                "id": "ProgressPerTask",
+                "title": "每个任务增加进度",
+                "desc": "每个任务增加进度",
+                "val_type": "uint16",
+                "cfg_type": "uint16",
+                "default": null
+              },
+              {
+                "id": "WeeklyTaskString",
+                "title": "周任务",
+                "desc": "周任务",
+                "val_type": "string",
+                "cfg_type": "string",
+                "default": null
+              },
+              {
+                "id": "DailyTaskString",
+                "title": "日任务",
+                "desc": "日任务",
+                "val_type": "string",
+                "cfg_type": "string",
+                "default": null
+              },
+              {
+                "id": "BuffTaskString",
+                "title": "全民buff任务",
+                "desc": "全民buff任务",
+                "val_type": "string",
+                "cfg_type": "string",
+                "default": null
+              },
+              {
+                "id": "BindFriendTaskString",
+                "title": "周年庆好友任务",
+                "desc": "周年庆好友任务",
+                "val_type": "string",
+                "cfg_type": "string",
+                "default": null
+              },
+              {
+                "id": "PartnerTask",
+                "title": "结伴任务",
+                "desc": "结伴任务",
+                "val_type": "string",
+                "cfg_type": "string",
+                "default": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "AVehicleFreeExperiencePrivilegeCfg",
+          "title": "[315]A车免费体验活动.xlsx-特权配置",
+          "cfg_type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              {
+                "id": "ActivityID",
+                "title": "活动ID",
+                "desc": "活动ID",
+                "val_type": "uint32",
+                "cfg_type": "uint32",
+                "default": null
+              },
+              {
+                "id": "PrivilegeID",
+                "title": "特权ID",
+                "desc": "特权ID",
+                "val_type": "uint8",
+                "cfg_type": "uint8",
+                "default": null
+              },
+              {
+                "id": "PrivilegeType",
+                "title": "特权任务类型",
+                "desc": "特权任务类型",
+                "val_type": "uint8",
+                "cfg_type": "uint8",
+                "default": null
+              },
+              {
+                "id": "PrivilegeBeginTime",
+                "title": "特权开启时间",
+                "desc": "特权开启时间",
+                "val_type": "string",
+                "cfg_type": "string",
+                "default": null
+              },
+              {
+                "id": "PrivilegeEndTime",
+                "title": "特权结束时间",
+                "desc": "特权结束时间",
+                "val_type": "string",
+                "cfg_type": "string",
+                "default": null
+              },
+              {
+                "id": "MaxProgress",
+                "title": "进度最大值",
+                "desc": "进度最大值",
+                "val_type": "uint16",
+                "cfg_type": "uint16",
+                "default": null
+              },
+              {
+                "id": "PrivilegeTask",
+                "title": "特权任务",
+                "desc": "特权任务",
+                "val_type": "string",
+                "cfg_type": "string",
+                "default": null
+              },
+              {
+                "id": "NewRefluxUserType",
+                "title": "回流用户类型",
+                "desc": "回流用户类型",
+                "val_type": "string",
+                "cfg_type": "string",
+                "default": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "AVehicleFreeExperiencePurchaseCfg",
+          "title": "[315]A车免费体验活动.xlsx-购买进度配置",
+          "cfg_type": "array",
+          "items": {
+            "type": "object",
+            "properties": [
+              {
+                "id": "ActivityID",
+                "title": "活动ID",
+                "desc": "活动ID",
+                "val_type": "uint32",
+                "cfg_type": "uint32",
+                "default": null
+              },
+              {
+                "id": "WeekID",
+                "title": "周ID",
+                "desc": "周ID",
+                "val_type": "uint8",
+                "cfg_type": "uint8",
+                "default": null
+              },
+              {
+                "id": "AddedCoupon",
+                "title": "累计可购买点券额度",
+                "desc": "累计可购买点券额度",
+                "val_type": "uint8",
+                "cfg_type": "uint8",
+                "default": null
+              },
+              {
+                "id": "AddedDiamond",
+                "title": "累计可购买钻石额度",
+                "desc": "累计可购买钻石额度",
+                "val_type": "uint8",
+                "cfg_type": "uint8",
+                "default": null
+              },
+              {
+                "id": "CouponLimit",
+                "title": "累计可购买点券额度",
+                "desc": "累计可购买点券额度",
+                "val_type": "uint8",
+                "cfg_type": "uint8",
+                "default": null
+              },
+              {
+                "id": "DiamondLimit",
+                "title": "累计可购买钻石额度",
+                "desc": "累计可购买钻石额度",
+                "val_type": "uint8",
+                "cfg_type": "uint8",
+                "default": null
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

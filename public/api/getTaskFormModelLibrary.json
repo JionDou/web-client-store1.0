@@ -1,0 +1,53 @@
+{
+	"message": "get tasks ok",
+	"code": 200,
+	"data": {
+		"content": {
+			"items": [{
+				"schema_id": "test",
+				"version": 22,
+				"author": "dev",
+				"time": "2021-02-08 15:45:23"
+			}, {
+				"schema_id": "test3",
+				"version": 1,
+				"author": "dev",
+				"time": 1612771864
+			}, {
+				"schema_id": "task",
+				"version": 1,
+				"author": "heathpan",
+				"time": 1612488097
+			}],
+			"total": 3,
+			"page_size": 10,
+			"offset": 0
+		},
+		"meta_data": {
+			"headers": [{
+				"prop": "schema_id",
+				"label": "配置表单模板"
+			}, {
+				"prop": "author",
+				"label": "最近修改人"
+			}, {
+				"prop": "time",
+				"label": "最近修改时间"
+			}, {
+				"prop": "version",
+				"label": "版本号"
+			}, {
+				"prop": "options",
+				"type": "Function",
+				"opts": [{
+					"prop": "edit",
+					"label": "编辑"
+				}, {
+					"prop": "view",
+					"label": "查看"
+				}],
+				"label": "操作"
+			}]
+		}
+	}
+}

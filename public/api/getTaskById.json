@@ -1,0 +1,31 @@
+{
+	"message": "get cfgtmpl task id 1 succ",
+	"code": 200,
+	"data": {
+		"content": {
+			"common": {},
+			"pages": {
+				"award": {
+					"firstaward": {
+						"tag": "POINT"
+					}
+				},
+				"special": {
+					"specialmark": {
+						"default": "ETSM_AggregateOnline",
+						"tag": "POINT",
+						"desc": "累计登录任务"
+					}
+				}
+			}
+		},
+		"meta_data": {
+			"name": "跑图任务",
+			"author": "dev",
+			"version": 6,
+			"time": "2021-02-05 18:02:54",
+			"id": "1",
+			"desc": "跑图任务 desc"
+		}
+	}
+}

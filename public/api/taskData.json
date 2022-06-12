@@ -1,0 +1,96 @@
+{
+	"message": "get task:1000 ok",
+	"code": 200,
+	"data": {
+		"content": {
+			"common": {
+				"status": null,
+				"closeyear": 0,
+				"openyear": 0,
+				"taskid": 1000,
+				"closedate": 0,
+				"opendate": 0
+			},
+			"pages": {
+				"universe": {
+					"short_intro": "jghgfjfjfjj",
+					"intro": "在/C01竞速模式/C00下完成比赛fghddjh",
+					"name": "单局评hgjgfjgfjf"
+				},
+				"other": {
+					"honorupperlimit": -1,
+					"compulsoryflag": 1,
+					"checkoccasion": 4,
+					"faildialog": "",
+					"successdialog": "",
+					"country": -1,
+					"awardinfo": "/C01100点券/C00",
+					"honorlowerlimit": -1,
+					"levellowerlimit": -1,
+					"licenseupperlimit": -1,
+					"licenselowerlimit": -1,
+					"taketype": 1,
+					"logictype": 1,
+					"starttype": 0,
+					"tasktype": 0,
+					"progress": "",
+					"neednum": 1,
+					"levelupperlimit": -1,
+					"packid": 1194,
+					"hideTaskExtension": {
+						"gameMode": {
+							"subMode": 1,
+							"baseMode": 1
+						},
+						"taskLevel": 2,
+						"taskType": 1
+					}
+				},
+				"award": {
+					"firstaward": [{
+						"specialflag": 0,
+						"award": [{
+							"probability": 10000,
+							"money": 0,
+							"experience": 150,
+							"item": [{
+								"itemnum": 2,
+								"availperiod": 0,
+								"genderitem": [
+									10207
+								]
+							}],
+							"luckmoney": 0,
+							"supermoney": 0,
+							"coupons": 0
+						}]
+					}]
+				},
+				"special": {
+					"specialmark": null
+				},
+				"logic": {
+					"executenum": -1,
+					"condition": {
+						"conditiontype": 1,
+						"channel": 0
+					},
+					"executeperiod": -1
+				}
+			}
+		},
+		"ver_ctrl_info": {
+			"pages": {
+				"universal": {},
+				"logic": {}
+			},
+			"common": {
+				"url": "http://tc-svn.tencent.com/ied/ied_qqspeedserver_rep/qqspeedserver_proj/branches/autosystem/test_task/task1000.lua",
+				"file_name": "task1000.lua",
+				"version": 118446,
+				"update": "2021-01-14 15:28:44",
+				"author": "heathpan"
+			}
+		}
+	}
+}
